@@ -1,0 +1,22 @@
+.accordion-toolbar {
+    width: 100%;
+    color: black;
+}
+
+.menu-container {
+    border: 1px solid rgba(0, 0, 255, 0.157);
+    background-color: white;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-out;
+}
+
+.menu-container.menuon {
+    height: auto;
+    padding: 10px;
+}
+
+.menu-container.menuoff {
+    height: 0;
+    border: none;
+}
